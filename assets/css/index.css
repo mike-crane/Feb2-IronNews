@@ -1,5 +1,9 @@
 nav ul li {
 
-  width: 10%; /* from above */
+  width: 14; /* from above */
+  float: left;
+ }
 
-  float: left; }
+ h1 {
+   width: 106px;
+ }
