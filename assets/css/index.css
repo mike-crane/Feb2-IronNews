@@ -1,9 +1,30 @@
+html {
+  display:block;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 11pt;
+    color: black;
+    margin-right: 2cm;
+    margin-left: 2cm;
+}
+
 nav ul li {
 
-  width: 14; /* from above */
+  width: 14%;
   float: left;
- }
+}
 
- h1 {
-   width: 106px;
- }
+section {
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  border-spacing: 0px;
+  background-color: lightgray;
+}
+section ol li{
+    margin: 5px;
+    display:inline;
+}
